@@ -1,0 +1,4 @@
+category: Gnome
+sdesc: "Common code for GNOME Javascript interpreters"
+ldesc: "gnome-js-common is a module holding tests and JavaScript code 
+useful or common to both Seed and gjs."

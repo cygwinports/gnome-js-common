@@ -1,0 +1,48 @@
+gnome-js-common
+------------------------------------------
+gnome-js-common is a module holding tests and JavaScript code useful
+or common to both Seed and gjs.
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-10
+  automake1.10-1.10.2-10
+  binutils-2.19.51-1
+  cygport-0.9.7-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gnome-common-2.26.0-2
+  libtool-2.2.7a-14
+  make-3.81-2
+  pkg-config-0.23b-10
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.gnome.org/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/gnome-js-common/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnome-js-common-0.1.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnome-js-common-0.1.1-X.cygport all
+
+This will create:
+  /usr/src/gnome-js-common-0.1.1-X-src.tar.bz2
+  /usr/src/gnome-js-common-0.1.1-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 0.1.1-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
