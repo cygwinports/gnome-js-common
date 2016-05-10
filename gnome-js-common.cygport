@@ -1,0 +1,15 @@
+inherit gnome2
+
+NAME="gnome-js-common"
+VERSION=0.1.2
+RELEASE=1
+CATEGORY="GNOME"
+SUMMARY="Common code for GNOME Javascript interpreters"
+DESCRIPTION="gnome-js-common is a module holding tests and JavaScript code
+useful or common to both Seed and gjs."
+
+ARCH=noarch
+
+# used only for tests; disabled to avoid circular dependency
+CYGCONF_ARGS="--disable-gjs --disable-seed"
+MAKEOPTS+=" gnome_js_commondocdir=/usr/share/doc/${NAME}"

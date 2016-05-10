@@ -1,7 +1,0 @@
-inherit gnome2
-
-DESCRIPTION="Common functions for GNOME Javascript interpreters"
-
-# used only for tests; disabled to avoid circular dependency
-CYGCONF_ARGS="--disable-gjs --disable-seed"
-MAKEOPTS+=" gnome_js_commondocdir=/usr/share/doc/${PN}"
